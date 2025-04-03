@@ -1,0 +1,12 @@
+@use 'reset';
+@use 'nav';
+@use 'header';
+@use 'product';
+@use 'grid';
+@use 'footer';
+.part-2{margin: 1rem 0; padding: 1rem 0;}
+.more{display: none;}
+.part-2 h1{margin: 1rem 0;}
+.part-2 hr{margin: 1rem 0;}
+.part-2 button{background:  none; border: none; outline: none; font-size: 1.2rem;}
+.product {margin: 1rem 0;}

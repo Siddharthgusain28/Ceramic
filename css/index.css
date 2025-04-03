@@ -1,0 +1,637 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-space-bet {
+  justify-content: space-between;
+}
+
+.right {
+  justify-content: right;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.img-resp {
+  max-width: 100%;
+}
+
+html {
+  font-size: 15px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+body {
+  font-size: 16px;
+}
+
+.about {
+  font-size: 1rem;
+  color: #025048;
+}
+
+.about2 {
+  font-size: 1.5rem;
+}
+
+.btn {
+  border: 1px solid #fff;
+  color: #fff;
+  background: none;
+  padding: 10px 1rem;
+  font-size: 1rem;
+}
+
+.position-img {
+  position: relative;
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.cart {
+  width: 75%;
+  height: 25rem;
+  background: #fff;
+  border: 2px solid #025048;
+  padding: 1rem;
+  margin: 6rem auto;
+  position: relative;
+}
+
+.cart button {
+  border: none;
+  background: none;
+  font-size: 1.7rem;
+  position: absolute;
+  right: 1.2rem;
+  top: 1.2rem;
+}
+
+header {
+  background: #025048;
+  color: #fff;
+  padding: 3rem 0;
+}
+
+header nav li a {
+  margin: 5px 10px;
+  color: #fff;
+}
+
+.navBar {
+  border: 2px solid #f1f4f1;
+  display: inline-block;
+  width: 4rem;
+  height: 2.5rem;
+  margin: 0 1rem;
+  border-radius: 5px;
+  display: none;
+}
+
+.navBar span {
+  background: #f1f4f1;
+  width: 80%;
+  height: 2px;
+  margin: 5px;
+  display: block;
+}
+
+nav a.active {
+  color: #f1f4f1;
+  text-shadow: 0 0 10px #dce7e6;
+}
+
+header h2 {
+  font-size: 4.5rem;
+  margin-bottom: 1rem;
+}
+
+.part-1 {
+  background: #025048;
+}
+
+header .banner {
+  margin-top: 10rem;
+}
+
+header .about {
+  margin: 1rem 0;
+  color: #fff;
+}
+
+header .about2 {
+  margin: 1rem 0;
+}
+
+header .btn {
+  margin-top: 3rem;
+}
+
+header .img1 {
+  position: absolute;
+  top: 5rem;
+  right: 0;
+}
+
+header .img2 {
+  position: absolute;
+  top: 16rem;
+  left: 0;
+}
+
+.part-2 {
+  margin-top: 11rem;
+  margin-bottom: 6rem;
+}
+
+.part-2 .about {
+  color: #025048;
+  margin: 1rem 0;
+}
+
+.part-2 h1 {
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+
+.part-2 .btn {
+  color: #025048;
+  border-color: #025048;
+  margin: 1rem 0;
+}
+
+.img4 {
+  margin: 8rem 0 1rem;
+}
+
+.part-3 {
+  background: #f1f4f1;
+  padding: 10rem 0;
+  margin: 10rem 0;
+}
+
+.part-3 .about {
+  margin: 1rem 0;
+}
+
+.over-img {
+  position: absolute;
+  bottom: 2rem;
+  left: 1.7rem;
+  background: #f1f4f1;
+  padding: 2rem 1rem;
+  width: 91%;
+}
+
+.over-img h3 {
+  font-size: 1.5rem;
+}
+
+.position-img1 {
+  height: 100%;
+  position: relative;
+}
+
+.img5, .img6 {
+  position: absolute;
+}
+
+.img6 {
+  bottom: -18.5rem;
+}
+
+.img5 {
+  top: -18.5rem;
+}
+
+.part-4 {
+  padding: 4rem 0;
+}
+
+.part-4 h1 {
+  margin: 1.3rem 0;
+}
+
+.part-5 {
+  background: #025048;
+  display: grid;
+  place-items: center;
+  padding: 3rem 1rem;
+}
+
+.over {
+  width: 90%;
+  padding: 2rem 1rem;
+  margin: auto;
+  background: #f1f4f1;
+  text-align: center;
+}
+
+.part-5 h1 {
+  font-size: 2.5rem;
+  margin: 1rem 0;
+}
+
+.part-5 h4 {
+  font-size: 1.5rem;
+}
+
+.part-5 .btn {
+  border-color: #025048;
+  color: #025048;
+  margin: 2rem 0;
+}
+
+.part-6 {
+  padding: 2rem 0;
+}
+
+.part-6 h1 {
+  margin: 1rem 0;
+}
+
+.part-7 {
+  padding: 3rem 0;
+  background: #f1f4f1;
+}
+
+.part-7 h1 {
+  margin: 1rem 0;
+}
+
+.review {
+  background: #fff;
+  padding: 1rem;
+}
+
+.review .about {
+  margin: 1rem 0;
+}
+
+.review img {
+  float: left;
+  margin: 0 1rem;
+}
+
+.part-8 {
+  background: #025048;
+}
+
+.jour {
+  padding: 2rem 0;
+  color: #fff;
+}
+
+.jour .btn {
+  margin: 1rem 0;
+}
+
+.sale {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  background: #f1f4f1;
+  color: #025048;
+  font-size: 1.2rem;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.price {
+  font-size: 1.5rem;
+  color: #025048;
+}
+
+.price span {
+  text-decoration: line-through;
+  color: #3b3d3b;
+}
+
+.container {
+  max-width: 1320px;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 20px;
+}
+
+.col-1 {
+  grid-column: span1;
+}
+
+.col-2 {
+  grid-column: span 2;
+}
+
+.col-3 {
+  grid-column: span 3;
+}
+
+.col-4 {
+  grid-column: span 4;
+}
+
+.col-5 {
+  grid-column: span 5;
+}
+
+.col-6 {
+  grid-column: span 6;
+}
+
+.col-7 {
+  grid-column: span 7;
+}
+
+.col-8 {
+  grid-column: span 8;
+}
+
+.col-9 {
+  grid-column: span 9;
+}
+
+.col-10 {
+  grid-column: span 10;
+}
+
+.col-11 {
+  grid-column: span 11;
+}
+
+.col-12 {
+  grid-column: span 12;
+}
+
+@media screen and (max-width: 1350px) {
+  html {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .img4 {
+    margin: 0;
+  }
+  .img5 {
+    top: -12.5rem;
+  }
+  .img6 {
+    bottom: -12.5rem;
+  }
+}
+@media screen and (max-width: 980px) {
+  html {
+    font-size: 14px;
+  }
+  .col-t-1 {
+    grid-column: span 1;
+  }
+  .col-t-2 {
+    grid-column: span 2;
+  }
+  .col-t-3 {
+    grid-column: span 3;
+  }
+  .col-t-4 {
+    grid-column: span 4;
+  }
+  .col-t-5 {
+    grid-column: span 5;
+  }
+  .col-t-6 {
+    grid-column: span 6;
+  }
+  .col-t-7 {
+    grid-column: span 7;
+  }
+  .col-t-8 {
+    grid-column: span 8;
+  }
+  .col-t-9 {
+    grid-column: span 9;
+  }
+  .col-t-10 {
+    grid-column: span 10;
+  }
+  .col-t-11 {
+    grid-column: span 11;
+  }
+  .col-t-12 {
+    grid-column: span 12;
+  }
+  .part-2 {
+    margin: 3rem 0 0;
+  }
+  .part-3 {
+    padding: 3rem 0;
+    margin: 9rem 0;
+  }
+  .img5 {
+    top: -10rem;
+  }
+  .img6 {
+    bottom: -10rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  html {
+    font-size: 13px;
+  }
+  .col-m-1 {
+    grid-column: span 1;
+  }
+  .col-m-2 {
+    grid-column: span 2;
+  }
+  .col-m-3 {
+    grid-column: span 3;
+  }
+  .col-m-4 {
+    grid-column: span 4;
+  }
+  .col-m-5 {
+    grid-column: span 5;
+  }
+  .col-m-6 {
+    grid-column: span 6;
+  }
+  .col-m-7 {
+    grid-column: span 7;
+  }
+  .col-m-8 {
+    grid-column: span 8;
+  }
+  .col-m-9 {
+    grid-column: span 9;
+  }
+  .col-m-10 {
+    grid-column: span 10;
+  }
+  .col-m-11 {
+    grid-column: span 11;
+  }
+  .col-m-12 {
+    grid-column: span 12;
+  }
+  .over-img {
+    left: 1rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 12px;
+  }
+  .col-p-1 {
+    grid-column: span 1;
+  }
+  .col-p-2 {
+    grid-column: span 2;
+  }
+  .col-p-3 {
+    grid-column: span 3;
+  }
+  .col-p-4 {
+    grid-column: span 4;
+  }
+  .col-p-5 {
+    grid-column: span 5;
+  }
+  .col-p-6 {
+    grid-column: span 6;
+  }
+  .col-p-7 {
+    grid-column: span 7;
+  }
+  .col-p-8 {
+    grid-column: span 8;
+  }
+  .col-p-9 {
+    grid-column: span 9;
+  }
+  .col-p-10 {
+    grid-column: span 10;
+  }
+  .col-p-11 {
+    grid-column: span 11;
+  }
+  .col-p-12 {
+    grid-column: span 12;
+  }
+  header h2 {
+    font-size: 2rem;
+  }
+  header nav {
+    display: none;
+    position: absolute;
+    top: 50px;
+    background: #025048;
+    width: 100%;
+    right: 0;
+    border: 1px solid #f1f4f1;
+  }
+  .navBar {
+    display: inline-block;
+  }
+  nav .flex {
+    flex-direction: column;
+    align-items: end;
+  }
+  nav li a {
+    padding: 1rem 0;
+  }
+  header .banner {
+    margin-top: 2rem;
+  }
+  header .btn {
+    margin-top: 1rem;
+  }
+  header {
+    padding: 1rem;
+    margin: 0 0 0.5rem;
+  }
+  header .img1 {
+    top: 0;
+    position: static;
+  }
+  header .img2 {
+    top: 14rem;
+    width: 300px;
+    left: 1rem;
+    height: auto;
+  }
+  .part-2 {
+    margin: 2rem 0;
+  }
+  .part-3 {
+    margin: 1rem 0;
+  }
+  .over-img {
+    left: 1.2rem;
+  }
+  .img5, .img6 {
+    position: relative;
+  }
+  .img5 {
+    top: 0;
+  }
+  .img6 {
+    bottom: 0;
+  }
+  .part-4 {
+    padding: 2rem 0;
+  }
+  .jour {
+    padding: 0 1rem;
+  }
+}
+footer h1 {
+  font-size: 1.5rem;
+  padding: 2rem 0;
+  color: #025048;
+}
+
+ul li {
+  margin: 10px;
+}
+
+footer ul li a {
+  font-size: 1rem;
+  padding: 5px;
+  color: #025048;
+}
+
+footer .copy {
+  margin: 2rem 0;
+}
+
+/*# sourceMappingURL=index.css.map */

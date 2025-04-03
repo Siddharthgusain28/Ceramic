@@ -1,0 +1,32 @@
+.part-1 .img1{top: 2rem;}
+header .banner{margin-top: 15rem;}
+.part-1 h2{font-size: 4rem;}
+
+.part-2{margin: 10rem 0 0; padding: 2rem 0;}
+.part-2 h1{font-size: 2.5rem; color: #025048; margin: 1rem 0;}
+address, a, hr{margin: 1rem 0; font-size: 1.2rem; color: #025048;}
+
+form{background: #f1f4f1; padding: 2rem 1rem;}
+form label{font-size: 1.2rem;}
+label input[type="text"]{width: 49%;}
+label input{width: 99%; height: 3rem; border: none; outline:none ; margin: 1.2rem 0; font-size: 1.2rem; padding: 0 10px;}
+label textarea{width: 99%; height:8rem; border: none; outline: none; margin: 1.2rem 0; font-size: 1.2rem; padding: 10px; resize: none;}
+form .btn{border-color: #025048; color: #025048;}
+
+.part-3{background: #f1f4f1; padding: 2rem 0;}
+.part-3 h1{font-size: 3rem;}
+
+.accordion{background: #fff; padding: 1rem; width: 100%; border: 1px solid #025048;}
+.accordion li a{border: 1px solid #025048; display: block; font-size: 1.2rem; font-weight: bold; padding: 1rem; cursor: pointer;}
+.accordion .about{margin: 1rem 0; display: none;}
+.accordion li.active p{display: block;}
+.accordion a.active{background: #f1f4f1; color: #025048;}
+.accordion li.active a{background: #f1f4f1; color: #025048;}
+
+.accordion li span::after{
+    content:"\2304";
+}
+
+.part-5{padding: 2rem 0; margin: 1rem 0; background: #025048; color: #f1f4f1;}
+.part-5 h1{font-size: 3rem;}
+.part-5 .btn{margin: 1.4rem 0;}

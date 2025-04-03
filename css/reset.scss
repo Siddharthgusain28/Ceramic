@@ -1,0 +1,20 @@
+*{ margin: 0; box-sizing: border-box; scroll-behavior: smooth;}
+a{ text-decoration: none;}
+ul{ list-style: none;}
+button{ cursor:  pointer; padding: 0;}
+.flex{ display: flex;}
+.justify-space-bet{ justify-content: space-between;}
+.right{ justify-content: right;}
+.align-center{ align-items: center;}
+.img-resp{ max-width:100%;}
+
+html{ font-size: 15px; font-family: Georgia, 'Times New Roman', Times, serif;}
+body{font-size:16px;}
+.about{font-size: 1rem; color:#025048;}
+.about2{font-size: 1.5rem;}
+.btn{border: 1px solid #fff; color: #fff; background: none; padding:10px 1rem; font-size: 1rem;}
+.position-img{position: relative;}
+
+.overlay{position: fixed; inset: 0; background: #fff3;}
+.cart{width: 75%; height:25rem; background: #fff; border: 2px solid #025048; padding: 1rem;margin: 6rem auto; position: relative;}
+.cart button{border: none; background: none; font-size: 1.7rem; position: absolute; right: 1.2rem; top: 1.2rem;}
