@@ -452,6 +452,7 @@ header .banner {
     width: 100%;
     right: 0;
     border: 1px solid #f1f4f1;
+    z-index: 1;
   }
   .navBar {
     display: inline-block;

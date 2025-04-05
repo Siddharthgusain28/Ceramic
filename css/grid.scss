@@ -73,7 +73,7 @@
 .col-p-11{ grid-column:span 11;}
 .col-p-12{ grid-column:span 12;}
 header h2{font-size: 2rem;}
-header nav{display: none;  position: absolute; top:50px;background: #025048; width: 100%; right: 0; border: 1px solid #f1f4f1;}
+header nav{display: none;  position: absolute; top:50px;background: #025048; width: 100%; right: 0; border: 1px solid #f1f4f1; z-index: 1;}
 .navBar{display: inline-block;}
 nav .flex{flex-direction: column; align-items: end;}
 nav li a{padding: 1rem 0;}
